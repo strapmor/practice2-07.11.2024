@@ -27,4 +27,4 @@ jobs:
 
       # Runs a building docker image
       - name: Build docker image
-        run: docker build -t ghcr.io/strapmor/practice2-07.11.2024/students-node-330:latest ./node/
+        run: docker build -t ghcr.io/strapmor/practice2-07.11.2024/students-node-330:latest ./PR-22/
