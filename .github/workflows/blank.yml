@@ -30,7 +30,7 @@ jobs:
         run: docker build -t ghcr.io/strapmor/practice2-07.11.2024/students-node-330:latest ./PR-22/
 
       - name: Login to github registry
-        uses: docker /login-actions@v3
+        uses: docker/login-actions@v3
         with:
           registry: ghcr.io
           username: ${{github.actor}}
